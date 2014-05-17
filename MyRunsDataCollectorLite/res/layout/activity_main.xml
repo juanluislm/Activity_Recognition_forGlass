@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/RadioGroupLabels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioStill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/still"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/radioWalking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/walking"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/radioRunning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/running"
+            android:textSize="10sp" />
+       <RadioButton
+            android:id="@+id/radioYaw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yaw"
+            android:textSize="10sp" />
+        <RadioButton
+            android:id="@+id/radioRoll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/roll"
+            android:textSize="10sp" />
+        <RadioButton
+            android:id="@+id/radioPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pitch"
+            android:textSize="10sp" />    
+       <RadioButton
+            android:id="@+id/radioRubbing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rubbing"
+            android:textSize="10sp" />               
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCollect"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:text="@string/collecting"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnCollectStop"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="@string/collectingStop"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnDeleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:text="@string/delete"
+        android:textSize="10sp" />
+
+</LinearLayout>
